@@ -5,6 +5,10 @@ import java.util.concurrent.TimeUnit;
 //CalculateResponse Method- Getters and Setters
 //Method that returns the data and the result of the operation
 
+/** @Author: Paulo Simões
+ *  @Calcula- Cálculo dos valores
+ */
+
 public class calculateResponse {
 	
 	private String data;
