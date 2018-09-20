@@ -1,0 +1,6 @@
+firstvalue,secondvalue,operator
+1,1,+  
+1,2,-  
+4,2,/  
+3,6,*  
+4,6,avg
