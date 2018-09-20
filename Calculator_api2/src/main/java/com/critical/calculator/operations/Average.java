@@ -7,16 +7,27 @@ package com.critical.calculator.operations;
 
 public class Average extends Calculator {
 	
-		private double firstValue;
-		private double secondValue;
-		private String operation;
+	private double firstValue;
+	private double secondValue;
+	private String operation;
+	private double result;
+	
+	
+	public Average(double firstValue, double secondValue, String operation, double result) {
+	
+		this.firstValue=firstValue;
+		this.secondValue=secondValue;
+		this.operation=operation;
+		this.result=result;
 		
-		public Average(double firstValue, double secondValue, String operation) {
+	}
 		
-			this.firstValue=firstValue;
-			this.secondValue=secondValue;
-			this.operation=operation;
-		}
+	 
+		@Override
+	    public double getResult() {
+	       return result = (firstValue + secondValue)/2;
+	    }
+		
 		@Override
 		public double getfirstValue() {
 			return this.firstValue;

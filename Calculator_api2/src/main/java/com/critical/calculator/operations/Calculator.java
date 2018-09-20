@@ -10,5 +10,4 @@ public abstract class Calculator {
 	public abstract double getsecondValue();
 	public abstract String getOperation();
 	public abstract double getResult();
-	public abstract String getEvaluate();
 }

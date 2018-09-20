@@ -10,18 +10,22 @@ public class Division extends Calculator {
 		private double firstValue;
 		private double secondValue;
 		private String operation;
+		private double result;
 		
-		public Division(double firstValue, double secondValue, String operation) {
+		
+		public Division(double firstValue, double secondValue, String operation, double result) {
 		
 			this.firstValue=firstValue;
 			this.secondValue=secondValue;
 			this.operation=operation;
+			this.result=result;
+			
 		}
 			
 		 
 		 @Override
 		    public double getResult() {
-		        result = firstValue / secondValue;
+		       return result = firstValue / secondValue;
 		    }
 		 
 		@Override
@@ -39,10 +43,6 @@ public class Division extends Calculator {
 			return this.operation;
 		}
 		
-		@Override
-		public String getEvaluate() {
-			result= firstValue / secondValue;
-		}
 		
 
 }
